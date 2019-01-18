@@ -1,0 +1,67 @@
+{
+	"name": "humanize-keys",
+	"version": "1.0.0",
+	"description": "Convert object keys to humanized words",
+	"license": "MIT",
+	"repository": "drivas/humanize-keys",
+	"author": {
+		"name": "Danier R.",
+		"email": "d_rivas@outlook.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"bench": "matcha bench/bench.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"map",
+		"obj",
+		"object",
+		"key",
+		"keys",
+		"value",
+		"values",
+		"val",
+		"iterate",
+		"humanize",
+		"human-case",
+		"camel",
+		"case",
+		"dash",
+		"hyphen",
+		"dot",
+		"underscore",
+		"separator",
+		"string",
+		"text",
+		"convert",
+		"deep",
+		"recurse",
+		"recursive"
+	],
+	"dependencies": {
+		"humanize-string": "^1.0.2",
+		"map-obj": "^3.0.0",
+		"quick-lru": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"matcha": "^0.7.0",
+		"xo": "^0.23.0"
+	},
+	"xo": {
+		"overrides": [
+			{
+				"files": "bench/bench.js",
+				"rules": {
+					"import/no-unresolved": "off"
+				}
+			}
+		]
+	}
+}
