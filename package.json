@@ -1,6 +1,6 @@
 {
 	"name": "humanize-keys",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "Convert object keys to humanized words",
 	"license": "MIT",
 	"repository": "drivas/humanize-keys",
