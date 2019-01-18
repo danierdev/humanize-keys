@@ -4,6 +4,8 @@
 	"description": "Convert object keys to humanized words",
 	"license": "MIT",
 	"repository": "drivas/humanize-keys",
+	"main": "index.js",
+	"types": "index.d.ts",
 	"author": {
 		"name": "Danier R.",
 		"email": "d_rivas@outlook.com"
